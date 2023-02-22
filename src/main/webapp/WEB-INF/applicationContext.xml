@@ -12,7 +12,7 @@
         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!--  Прописываем пакет для сканирования Spring  -->
-    <context:component-scan base-package="org.example" />
+    <context:component-scan base-package="org.example.controller" />
 
     <!--  Этот тег необходим для доступа к различным манипуляциям в расках Spring MVC  -->
     <mvc:annotation-driven/>

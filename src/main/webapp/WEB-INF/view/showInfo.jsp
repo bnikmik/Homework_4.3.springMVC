@@ -2,8 +2,8 @@
 <html>
 <body>
 
-Country - ${param.country}
-<br>Capital - ${param.capital}
+${newCountry}
+<br>${newCapital}
 
 </body>
 </html>
